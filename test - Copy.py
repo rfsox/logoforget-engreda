@@ -41,7 +41,7 @@ st.markdown("""
 
 # 4. واجهة التطبيق (العنوان ثم الشعار تحته)
 st.markdown("<h1 class='neon-text'>LOGO FORGE PRO</h1>", unsafe_allow_html=True)
-st.markdown(get_styled_logo("image_5.png"), unsafe_allow_html=True)
+st.markdown(get_styled_logo("image_4.png"), unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; color: #9b30ff; font-size: 1.3em; font-weight: bold;'>Reda AI Studio</p>", unsafe_allow_html=True)
 
 st.markdown("---")
@@ -70,4 +70,5 @@ with col_out:
             except: st.error("تحقق من اتصالك بالإنترنت")
     else:
         st.markdown('<div style="height: 300px; border: 2px dashed #333; border-radius: 20px; display: flex; align-items: center; justify-content: center; color: #555;">سيظهر تصميمك هنا</div>', unsafe_allow_html=True)
+
 
