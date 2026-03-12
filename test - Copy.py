@@ -44,7 +44,7 @@ st.markdown("""
 
 # 4. الهيدر (الشعار والاسم المشع)
 st.markdown("<h1 class='neon-text'>LOGO FORGE PRO</h1>", unsafe_allow_html=True)
-logo_html = get_styled_logo("image_5.png")
+logo_html = get_styled_logo("image_4.png")
 st.markdown(logo_html, unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; color: #9b30ff; font-size: 1.2em;'>Reda AI Studio</p>", unsafe_allow_html=True)
 
@@ -91,4 +91,5 @@ with col_display:
             ''', unsafe_allow_html=True)
 
 # 6. الفوتر
+
 st.markdown("<p style='text-align: center; margin-top: 50px; color: #444;'>Designed with ❤️ by Reda | 2026</p>", unsafe_allow_html=True)
